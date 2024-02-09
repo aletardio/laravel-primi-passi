@@ -39,13 +39,13 @@
                 <div class="col-6">
                     <ul class="list-unstyled d-flex align-items-center my-2 justify-content-center">
                         <li class="nav-item">
-                            <a href="/homepage" class="nav-link px-3 fw-bold">Home</a>
+                            <a href="{{ route('homepage') }}" class="nav-link px-3 fw-bold">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/about-us" class="nav-link px-3 fw-bold">About us</a>
+                            <a href="{{ route('about_us') }}" class="nav-link px-3 fw-bold">About us</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/work-with-us" class="nav-link px-3 fw-bold">Work with us</a>
+                            <a href="{{ route('work_with_us') }}" class="nav-link px-3 fw-bold">Work with us</a>
                         </li>
                     </ul>
                 </div>
